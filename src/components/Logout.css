@@ -1,0 +1,25 @@
+.logoutPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.logoutButton {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: #3d77a5;
+  border: none;
+  box-shadow: 5px 9px 15px -5px rgb(203, 199, 199);
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 20px;
+}
+
+.logoutButton:hover {
+  transform: translateY(5px);
+  box-shadow: none;
+}
